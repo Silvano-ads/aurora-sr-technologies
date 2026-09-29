@@ -552,3 +552,19 @@ main, main section, .hero, .section, .contact-section, footer { display: block !
     }
 }
 
+
+
+/* =====================================================
+   CORREÇÃO FINAL — GRID DO PROJETO 03
+===================================================== */
+
+@media (min-width: 951px) {
+    .project-grid {
+        grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
+    }
+
+    .project-grid .field-report-project {
+        grid-column: 1 / -1 !important;
+        width: 100%;
+    }
+}
